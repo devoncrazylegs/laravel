@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
 
     # Set Vagrant box to use
-    config.vm.box = "primalskill/ubuntu-trusty64"
+    config.vm.box = "ubuntu/trusty64"
 
     # Configure port forwarding
     config.vm.network :forwarded_port, guest: 80, host: 8931, auto_correct: true
