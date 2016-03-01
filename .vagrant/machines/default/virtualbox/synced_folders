@@ -1,1 +1,1 @@
-{"virtualbox":{"/var/www":{"create":true,"group":"www-data","owner":"www-data","guestpath":"/var/www","hostpath":"/data/my-stuff/laravel","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/data/my-stuff/laravel","disabled":false}}}
+{"virtualbox":{"/var/www":{"create":true,"group":"www-data","owner":"www-data","guestpath":"/var/www","hostpath":"/home/james/Documents/Repos/projects/laravel","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/james/Documents/Repos/projects/laravel","disabled":false,"__vagrantfile":true}}}

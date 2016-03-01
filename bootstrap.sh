@@ -27,7 +27,7 @@ echo "Installing PHP"
     apt-get install php5-common php5-dev php5-cli php5-fpm -y > /dev/null
 
 echo "Installing PHP extensions"
-    apt-get install curl php5-curl php5-gd php5-mcrypt php5-mysql -y > /dev/null
+    apt-get install curl php5-curl php5-gd php5-mcrypt php5-mysql php-pear php5-xdebug -y > /dev/null
     apt-get install libapache2-mod-php5
 
 echo "Installing MYSQL extensions"
